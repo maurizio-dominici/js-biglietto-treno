@@ -15,9 +15,11 @@ let price = totalKm * kmPrice;
 
 if (passengerAge < 18) {
   //   console.log("l'utente è minorenne");
+
   price = price * 0.8;
 } else if (passengerAge > 65) {
   //   console.log("l'utente è over");
+
   price = price * 0.6;
 }
 
